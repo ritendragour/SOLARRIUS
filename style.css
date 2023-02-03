@@ -33,9 +33,9 @@
 }
 
 .logo img {
-    width: 30%;
+    width: 25%;
     height: 30%;
-    border-radius: 50%;
+    border-radius:50%;
 }
 
 .logo h5 {
@@ -68,18 +68,6 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
-}
-
-.first-plan span:last-child {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding: 20px; */
-    /* width: 10%; */
-    /* background-color: black;
-    color: white; */
-    /* border-radius: 50%; */
 }
 .second-plan, .plan-parent {
     margin-top: 10px;
@@ -149,14 +137,32 @@
 .profile {
     width: 10%;
     padding: 40px 20px;
-    background-color: rgb(98, 0, 255);
+    background-color: #d1b198;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    align-items: center;
 }
-
+.profile img{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+.profile span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 20px;
+}
+.bi-plus-circle-fill{
+    font-size: 32px;
+}
 @media(max-width:786px) {
     .main{
         flex-direction: column;
@@ -179,5 +185,8 @@
     }
    .first-plan span:last-child  {
         display: none;
+    }
+    .profile{
+        font-size: 32px;
     }
 }
